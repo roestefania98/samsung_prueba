@@ -6,20 +6,33 @@ body{
 	color: #222222;
 }
 
+h1{
+font-size: 100px;
+font-weight: 600;
+margin: 80px 0;
+}
+
+
+
 .title{
 	text-align: left;
-	font-size: 100px;
+	font-size: 80px;
     font-weight: 700;
 	color: #303132;
 	margin: 30px 0;
 }
+
+#hero p{
+	margin-bottom: 80px;
+}
+
 
 #hero{
 	background-image: url(../img/slide-galaxy.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 400px 0;
+	padding: 200px 0;
 	color: #FFF;
 	text-align: center
 }
@@ -43,12 +56,58 @@ body{
 	background-color: #D3D3D3;
 }
 
-footer{
-	background-color: #D3D3D3;
-	text-align: center;
-	padding: 100px;
+
+.bg-qled{
+	background-image:url(../img/QLED-tv.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-twin{
+	background-image:url(../img/Twin-cooling.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-switch{
+	background-image:url(../img/smart_switch_pc.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-frame{
+	background-image:url(../img/the_framev2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-gear{
+	background-image:url(../img/Gear-Fit2-Pro.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#follow i{
+	font-size: 50px;
 	color: #222222;
 }
 
+footer{
+	background-color: #D3D3D3;
+	text-align: center;
+	color: #222222;
+}
 
+#follow{
+	padding: 30px 0;
+}
 
+#copy{
+	padding: 10px 0;
+}
+	
