@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Poppins';
+	font-size: 20px;
+	color: #222222;
+}
+
+.title{
+	text-align: left;
+	font-size: 100px;
+    font-weight: 700;
+	color: #303132;
+	margin: 30px 0;
+}
+
+#hero{
+	background-image: url(../img/slide-galaxy.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 400px 0;
+	color: #FFF;
+	text-align: center
+}
+.content{
+	padding: 10% 15%;
+}
+
+.content .title{
+	text-align: left;
+}
+
+.content p{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+#twin-cooling,
+#frame-tv{
+	background-color: #D3D3D3;
+}
+
+footer{
+	background-color: #D3D3D3;
+	text-align: center;
+	padding: 100px;
+	color: #222222;
+}
+
+
+
